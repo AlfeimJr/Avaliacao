@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/home.css">
+    <title>Home</title>
+</head>
+<body>
+    <header class="conteiner">
+        <div class="header-pai">
+            <div class="logo">
+                <img src="../img/logo.png" alt="" class="trafico">                
+        </div>
+        <div class="menu">
+            <ul id="lista-menu">
+              <li><a href="" class="menu">ABOUT </a></li>
+              <li><a href="" class="menu">HOW TO</a></li>
+              <li><a href="" class="menu">FAQS</a></li>
+              <a href="" id="botao-contato">CONTACT US</a>
+            </ul>
+    </div>
+    <div class="permit">
+        <h1 >
+            Your awesome <br> traffic permit <br> consultant.
+        </h1>
+        <a href="" class="start">GET STARTED</a>
+    </div>
+    <div>
+        <img src="../img/mobel.png" alt="" id="caminhao">
+    </div>
+    </header>
+    <main class="main-pai" >
+        <div class="main-conteiner">
+        <div class="main-filho">
+            <h1>ABOUT US</h1>
+            <p>The occupational traffic permit is one of the most<br><br> important things in the company when carrying out<br><br>  freight transport. In fact, it is a prerequisite for doing<br><br> business traffic at all.<br><br> 
+        </div>
+        <div>
+            <img src="../img/Illustration.png" alt="" id="ilustracao">
+        </div>
+        </div>
+        <div class="border">
+            <b>
+                <p class="box">
+                How do you do when you need to obtain<br>
+                 a commercial traffic permit for freight<br>
+                  transport to your business?
+            </p>
+            </b>
+        </div>
+        <div class="apply-conteiner">
+            <img src="../img/illustrations.png" alt="" id="illustrations">
+            <div>
+                <h1>HOW TO APPLY</h1>
+                <p>When applying for a traffic permit, there are certain <br><br> requirements that you must meet that are included in<br><br> the examination: requirements for professional<br><br> knowledge, solid establishment, good reputation and<br><br> financial resources. Important to remember is to confirm<br><br> your application for a traffic permit by the company's<br><br> company signer or CEO.</p>
+            </div>
+        </div>
+
+        <div class="faq">
+            <div class="faq-filho">
+            <h1>FAQ</h1>
+            <h2>Questions and Answers<br> on Professional Traffic<br> Permits:</h2>
+            </div>
+            <img src="../img/Group 14.png" alt="" id="group">
+        </div>
+        <div class="details-pai">
+        <div>
+            <details class="details1">
+                <summary>
+                    What is a professional traffic permit?
+                </summary>
+                <p>
+                    Traffic permits are a requirement for conducting professional traffic.
+                </p>
+            </details>
+            <details class="details1">
+                <summary>
+                    What is a professional traffic permit?
+                </summary>
+                <p>
+                    Traffic permits are a requirement for conducting professional traffic.
+                </p>
+            </details>
+            <details class="details1">
+                <summary>
+                    What is a professional traffic permit?
+                </summary>
+                <p>
+                    Traffic permits are a requirement for conducting professional traffic.
+                </p>
+            </details>
+        </div>
+        <div>
+            <details class="details1">
+                <summary>
+                    What is a professional traffic permit?
+                </summary>
+                <p>
+                    Traffic permits are a requirement for conducting professional traffic.
+                </p>
+            </details>
+            <details class="details1">
+                <summary>
+                    What is a professional traffic permit?
+                </summary>
+                <p>
+                    Traffic permits are a requirement for conducting professional traffic.
+                </p>
+            </details>
+            <details class="details1">
+                <summary>
+                    What is a professional traffic permit?
+                </summary>
+                <p>
+                    Traffic permits are a requirement for conducting professional traffic.
+                </p>
+            </details> 
+            <a href="" class="load">LOAD MORE</a>
+        </div>
+        </div>
+        <div class="carrossel">
+            <div class="carrossel-text">
+            <h1>ABOUT US</h1>
+            <P>Out Awesome<br> Clients</P>
+            </div>
+            <div class="slider">
+                <ul class="mySlides">
+                    <li>
+                        Yes, you will need to have the land owner<br> sign the permit application as the Permittee,<br> and you sign the permit as the Applicant or<br> Agent for the Permittee.
+                    </li>
+                    <img src="/img/Ellipse 9.png" alt="" id="mark">
+                    <p>Isak Pettersson</p>
+                </ul>
+                <ul class="mySlides">
+                    <li>
+                        From most barricade or traffic control<br> companies located in the phone book. They<br> employ certified Traffic Control Supervisors<br> (TCS) who can generate and certify the<br> traffic control plan. 
+                    </li>
+                    <img src="/img/Ellipse 8.png" alt="" id="simon-sandberg">
+                    <p>Simon Sandberg</p>
+                </ul>
+                <ul class="mySlides">
+                    <li>
+                        An A-Line, or access restriction deed is<br> a property right that has been obtained<br> by CDOT for the sole purpose of<br> prohibiting direct
+                    </li>
+                    <img src="/img/Ellipse 7.png" alt="" id="simon-sandberg">
+                    <p>Gabriel Renovato</p>
+                </ul>
+                <button class="direita" onclick="plusDivs(-1)">&#10094;</button>
+                <button class="esquerda" onclick="plusDivs(1)">&#10095;</button>
+                <script>
+                    var slideIndex = 1;
+                    showDivs(slideIndex);
+                    
+                    function plusDivs(n) {
+                      showDivs(slideIndex += n);
+                    }
+                    
+                    function showDivs(n) {
+                      var i;
+                      var x = document.getElementsByClassName("mySlides");
+                      if (n > x.length) {slideIndex = 1}
+                      if (n < 1) {slideIndex = x.length}
+                      for (i = 0; i < x.length; i++) {
+                        x[i].style.display = "none";  
+                      }
+                      x[slideIndex-1].style.display = "block";  
+                    }
+                </script>
+            </div>
+        </div>
+    </main>
+    <footer class="footer-pai">
+        <div>
+        <img src="../img/Group 35.png" alt="" id="caminhao-footer">
+        </div>
+        <div class="footer-filho">
+            <div class="footer-filho2">
+            <p id="footer-border">We provide traffic management<br> consultants so you get started<br> quickly, contact us for a quote<br> today!</p>
+            </div>
+            <div class="form-pai">
+            <form class="form" method="POST" action="/home">
+                <p type="Name:"><input placeholder="Write your name here.."></input></p>
+                <p type="Email:"><input placeholder="Your email address"></input></p>
+                <p type="Message:"><input placeholder="What items do you want to transport?"></input></p>
+                <button>GET STARTED</button>
+              </form>
+            </div>
+        </div>
+        <div class="area">
+            <img src="../img/logo.png" alt="" id="logo-footer">
+            <div class="menu">
+                <ul id="lista-menu2">
+                  <li><a href="" class="menu">ABOUT </a></li>
+                  <li><a href="" class="menu">HOW TO</a></li>
+                  <li><a href="" class="menu">FAQS</a></li>
+                  
+                </ul>
+        </div>
+        </div>
+        <div class="final-pai">
+        <div class="final">
+            <h1>Copyright @ 2019</h1>
+        </div>
+        <ul>
+        <img src="../img/i.png" alt="">
+        <img src="../img/f.png" alt="">
+        <img src="../img/t.png" alt="">
+        </ul>
+        </div>
+        
+    </footer>
+</body>
+</html>
